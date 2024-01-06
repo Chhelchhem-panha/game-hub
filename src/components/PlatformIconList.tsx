@@ -1,5 +1,4 @@
 import { Icon } from "@chakra-ui/react";
-import { Plateform } from "../hooks/useGames";
 import {
   FaAndroid,
   FaApple,
@@ -13,9 +12,10 @@ import { MdPhoneIphone } from "react-icons/md";
 import { BsGlobe } from "react-icons/bs";
 import { IconType } from "react-icons";
 import { HStack } from "@chakra-ui/react";
+import { Platform } from "../hooks/useGames";
 
 interface Props {
-  platforms: Plateform[];
+  platforms: Platform[];
 }
 
 const PlatformIconList = ({ platforms }: Props) => {

@@ -4,7 +4,6 @@ import theme from "./theme";
 import App from "./App";
 import "./index.css";
 import { ChakraProvider, ColorModeScript } from "@chakra-ui/react";
-import defineConfig from './../vite.config';
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
